@@ -1,7 +1,12 @@
+/* Reset */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html{
+  font-family: 'Open Sans', sans-serif;
 }
 
 ul{
@@ -12,6 +17,12 @@ img{
   max-width: 100%;
 }
 
+a{
+  text-decoration: none;
+}
+
+
+/* Layout Rules */
 body{
   display: flex;
   flex-direction: column;
@@ -104,6 +115,7 @@ main{
 .play-list{
   display: flex;
   justify-content: space-between;
+  gap: 10px 5px;
 }
 
 .play-list-item{

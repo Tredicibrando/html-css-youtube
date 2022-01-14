@@ -1,0 +1,60 @@
+
+@media screen and (max-width: 1330px ){
+    .widget__menu .menu-item a {
+        font-size: 10px;
+        margin-top: 5px;
+
+    }
+    
+    .side-bar{
+        width: auto;
+        transition: 20ms;
+    }
+
+    .menu-item{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+
+    .menu-item .icon{
+        margin: 0;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .widget{
+        border: 0;
+        padding-bottom: 0;
+    }
+
+    .widget:nth-child(2){
+        padding-top: 0;
+    }
+
+    .play-list{
+        width: auto;
+        flex-wrap: wrap;
+        flex-shrink: 0;
+    }
+
+    .play-list-item{
+        width: 33%;
+      }
+}
+
+
+
+@media screen and (max-width: 800px ){
+    
+    aside{
+        display: none;
+    }
+
+    
+    .play-list-item{
+        width: 48%;
+      }
+}
