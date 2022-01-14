@@ -115,11 +115,12 @@ main{
 .play-list{
   display: flex;
   justify-content: space-between;
-  gap: 10px 5px;
+
 }
 
 .play-list-item{
   width: 24%;
+  margin-bottom: 15px;
 }
 
 .card-header{

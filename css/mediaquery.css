@@ -37,7 +37,7 @@
     .play-list{
         width: auto;
         flex-wrap: wrap;
-        flex-shrink: 0;
+
     }
 
     .play-list-item{
@@ -56,5 +56,37 @@
     
     .play-list-item{
         width: 48%;
+        padding: 10px;
       }
+
+      .play-list{
+        justify-content: center;
+    }
+
+    .play-list-wrapper{
+        width: auto;
+        padding: 0;
+      }
+
+}
+
+@media screen and (max-width: 500px ){
+    
+    aside{
+        display: none;
+    }
+
+    .play-list{
+        justify-content: flex-start;
+    }
+    
+    .play-list-item{
+        width: 58%;
+      }
+
+      .play-list-wrapper{
+        width: auto;
+        padding: 0;
+      }
+
 }
