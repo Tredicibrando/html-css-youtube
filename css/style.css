@@ -29,11 +29,11 @@ body{
   height: 100vh;
 }
 
-header{
+/* header{
   padding: 30px;
   border: 2px solid red;
   height: 20px;
-}
+} */
 
 main{
   display: flex;
@@ -115,6 +115,7 @@ main{
 .play-list{
   display: flex;
   justify-content: space-between;
+  flex-wrap: scroll;
 
 }
 
@@ -142,4 +143,36 @@ main{
 
 .card-body img{
   border-radius: 50%;
+}
+
+ /* Header  */
+
+ .header__section{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .header__section .img_wrapper{ 
+    width: 100px;
+}
+
+ .header__section ul li img{
+   max-width: 100%;
+   object-fit: contain;
+   object-position: center;
+
+ }
+
+
+.header__section ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__section ul li{
+  padding: 5px;
 }
